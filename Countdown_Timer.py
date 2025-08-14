@@ -1,8 +1,8 @@
 import time
 
-my_time = int(input("Enter Time in seconds: "))
+clock = int(input("Enter Time in seconds: "))
 
-for x in range(my_time,0,-1):
+for x in range(clock,0,-1):
     seconds = x % 60
     min = int(x / 60) % 60
     hour = int(x/3600)
